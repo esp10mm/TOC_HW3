@@ -39,8 +39,8 @@ public class TocHw3 {
 		int avg_price = 0;
 		for(JSONObject r : target)
 			avg_price += r.getInt("總價元");
-		if(target.size() != 0);
-		System.out.println(avg_price/target.size());
+		if(target.size() != 0)
+			System.out.println(avg_price/target.size());
 	}
 	
 	private static String sendGet(String url) throws Exception{
